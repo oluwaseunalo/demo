@@ -1,0 +1,60 @@
+.wrapper {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   width: 20%;
+}
+
+.wrapper form {
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper div:nth-child(1) {
+   margin-bottom: 0.5rem;
+}
+
+.wrapper label {
+   margin-bottom: 5px;
+}
+
+.wrapper input[type="email"],
+.wrapper input[type="password"] {
+   margin-bottom: 10px;
+   padding: 0.5rem;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+.wrapper input[type="email"]:focus,
+.wrapper input[type="password"]:focus {
+   outline: none;
+   border-color: #44ff00;
+}
+
+.wrapper button {
+   background-color: #0b7628;
+   color: #fff;
+   border: none;
+   padding: 0.5rem 1rem;
+   border-radius: 4px;
+   cursor: pointer;
+   margin-bottom: 0.5rem;
+}
+
+.wrapper button:hover {
+   background-color: #00b377;
+}
+
+.wrapper a {
+   color: #0b7628;
+   text-decoration: none;
+   margin: 1rem;
+}
+
+.wrapper a:hover {
+   text-decoration: underline;
+}
+
+.wrapper input:nth-child(even) {
+   background-color: #f2f2f2;
+}
