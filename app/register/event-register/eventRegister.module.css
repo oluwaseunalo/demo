@@ -1,0 +1,10 @@
+.wrapper button:first-child {
+   width: 50rem;
+   text-align: start;
+}
+
+.wrapper form {
+   display: flex;
+   gap: 0.5rem;
+   margin-top: 0.5rem;
+}
