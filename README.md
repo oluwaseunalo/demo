@@ -7,13 +7,13 @@ This repository allows event creators to create events and view all registered e
 Clone the project
 
 ```bash
-  git clone https://github.com/oluwaseunalo/docuwaretask.git
+  git clone https://github.com/oluwaseunalo/demo.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd docuwaretask
+  cd demo
 ```
 
 Install dependencies
